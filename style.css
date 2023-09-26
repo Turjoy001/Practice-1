@@ -1,0 +1,181 @@
+/* common css start */
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between{
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive;
+}
+h3,h4,h5,h6,button,a{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0px auto;
+}
+/* common css end */
+
+/* topbar css start */
+#topbar{
+    background-color: #0f2f44;
+}
+#topbar .topbar_info p{
+    color: #fefeff;
+    padding: 13px 0px;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* topbar css end */
+
+/* menu css start */
+#menu_nav .row{
+    align-items: center;
+}
+#menu_nav ul li a{
+    font-weight: 500;
+    color: #0f2f44;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 40px 19px;
+    display: inline-block;
+    transition: 0.5s;
+}
+#menu_nav ul li a:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+#menu_nav ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    background: none;
+    margin: 0px 10px;
+}
+#menu_nav ul li button:hover{
+    cursor: pointer;
+}
+/* menu css end */
+
+/* your success css start */
+#your_success{
+    background-image: url(./img-3/Bizzency-bg.png);
+    height: 600px;
+    background-size: cover;
+}
+#your_success .your_success_info{
+    padding-top: 140px;
+}
+.your_success_info h3{
+    color: #0f2f44;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 300;
+}
+.your_success_info h1{
+    color: #0f2f44;
+    font-size: 80px;
+    line-height: 70px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+.your_success_info h4{
+    color: #8484bf;
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 8px;
+    font-weight: 400;
+}
+.your_success_info p{
+    color: #444444;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.your_success_info .button{
+    width: 160px;
+    height: 45px;
+    background-color: #8484bf;
+    color: #e4e4f0;
+    border: none;
+    font-size: 17px;
+}
+.your_success_info ul li{
+    padding-left: 20px;
+}
+.your_success_info ul li button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffffff;
+    margin: 0px 10px;
+}
+.your_success_info .button{
+    cursor: pointer;
+}
+.your_success_info ul li button{
+    cursor: pointer;
+}
+/* your success css end */
+
+/* about css start */
+#about_us{
+    padding: 100px;
+}
+.about_us_info p{
+    color: #0f2f44;
+    font-size: 14px;
+    line-height: auto; 
+}
+.about_us_info h3{
+    color: #0f2f44;
+    font-size: 32px;
+    line-height: auto;
+    padding-bottom: 30px;
+}
+.container .button_2{
+    background-color: #ffc712;
+    color: #0f2f44;
+    padding: 1px 15px;
+    font-size: 18px;
+    line-height: 44px;
+    border: none;
+    border-radius: 5px;
+}
+.container .button_3{
+    background-color: #ffffff;
+    color: #0f2f44;
+    padding: 0px 13px;
+    font-size: 18px;
+    line-height: 44px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.about_us_info .button_2{
+    cursor: pointer;
+}
+.about_us_info .button_3{
+    cursor: pointer;
+}
+/* about css  */
